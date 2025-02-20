@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.navegacao{
+    text-align: center;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.minhas-informacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+color: #FFF;
+margin-top: 211px;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 180px;
+}
+
+.sobre-me{
+width: 492px;
+color: #9C9C9C;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.14px;
+margin-left: 180px;
+}
+
+
+
+.minha-foto {
+    width: 700px;
+    margin-right: 100px;
+
+}
+    
+.button {
+width: 300px;
+margin-top: 20px;
+color: #FFF;
+font-size: 16px;
+font-weight: 700;
+font-style: normal;
+display: flex;
+padding: 21px 64px;
+margin-left: 180px;
+align-items: center;
+border-radius: 4px;
+border: 1px solid #62BA1B;
+background: #3F8E00;
+box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.paragrafo{
+    display: inline-block;
+    width: 100%;
+    margin-left: 100px;
+    
+}
+
+.footer {
+    width: 10px;
+    height: 50px;
+    object-fit: contain;
+    display: flex;
+    grid: repeat(3, 80px) / auto-flow;
+    gap: 3vw;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 400px;
+    line-height: normal;
+}
